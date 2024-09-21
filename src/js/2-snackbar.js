@@ -13,6 +13,7 @@ const generatePromise = () => {
   return new Promise((resolve, reject) => {
     const state = form.state.value;
     const delay = form.delay.value;
+    form.reset();
 
     setTimeout(() => {
       if (state === 'fulfilled') {
