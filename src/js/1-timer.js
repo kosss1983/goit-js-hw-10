@@ -93,7 +93,6 @@ const runTimer = () => {
     }
   }, 1000);
 };
-
 const updateTimer = convertDate => {
   const { days, hours, minutes, seconds } = convertDate;
 
